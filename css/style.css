@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap");
+body {
+  background-color: #eaeaea;
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  width: 1128px;
+  height: 125px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+
+.logo2 {
+  width: 87px;
+  height: 35px;
+  margin-left: 100px;
+  margin-right: 95px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.menu a {
+  font-family: 'Hind Madurai', sans-serif;
+  text-transform: uppercase;
+  margin-right: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 600;
+}
+
+.menu .search {
+  text-transform: uppercase;
+  margin-left: 40px;
+  border: #c2c2c2 solid 1px;
+  padding: 10px 30px 10px 50px;
+}
+
+/*-MAIN ( --------------BLOCK_1-------------- )*/
+main .block1 {
+  margin-top: 85px;
+}
+
+main .block1 img {
+  position: absolute;
+  z-index: 1;
+}
+
+main .block1 .block1_background {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+main .block1 .logo3 {
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+main .block1 .bananas {
+  margin-left: 90px;
+  margin-top: 190px;
+}
+
+main .block1 .block1_text {
+  width: 320px;
+  margin-left: 90px;
+  margin-top: 240px;
+  position: absolute;
+  font-size: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
+  z-index: 2;
+}
+
+main .block1 .block1_background {
+  z-index: 1;
+  position: absolute;
+}
+
+/*-MAIN ( --------------BLOCK_2-------------- )*/
+main .block2 {
+  position: absolute;
+  background-color: #fff;
+  width: 1120px;
+  height: 370px;
+  margin-top: 500px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-flow: column wrap;
+}
+
+main .block2 img {
+  margin: 20px;
+  margin-top: 40px;
+}
+
+main .block2 p {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+main .block2 .block2_text3 {
+  width: 300px;
+}
+
+/*-MAIN ( --------------BLOCK_3-------------- )*/
+main .block3 {
+  background-color: #fff;
+  height: 440px;
+  width: 1120px;
+  position: absolute;
+  margin-top: 920px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+main .block3 .block3_h {
+  color: #055555;
+  font-size: 32px;
+  font-family: 'Istok Web', sans-serif;
+  margin-left: 20px;
+}
+
+main .block3 .img_p {
+  display: flex;
+  justify-content: flex-start;
+}
+
+main .block3 .line {
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 90px;
+  margin-left: 590px;
+  color: #858585;
+}
+
+main .block3 .line .save {
+  margin-left: 200px;
+  margin-top: 5px;
+  color: #858585;
+  border: #858585 solid 1px;
+  padding: 10px;
+}
+
+main .block3 .block3_text {
+  width: 500px;
+  position: absolute;
+  top: 160px;
+  margin-left: 570px;
+  margin-bottom: 200px;
+}
